@@ -1,0 +1,22 @@
+.lectures_list {
+    display: flex;
+    justify-content:space-around;
+
+    list-style: none;
+    margin: 3rem;
+    padding: 1rem 1rem;
+  }
+
+  .mycourse_list {
+
+    list-style: none;
+    margin: 3rem;
+    padding: 1rem 3rem;
+  }
+  
+.placeholder {
+    margin: 4rem;
+    text-align: center;
+    color: black;
+  }
+  

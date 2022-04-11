@@ -1,0 +1,9 @@
+.Intro_sect {
+
+    height: 100vh;
+    background-color: var(--color-bg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-white);
+}
