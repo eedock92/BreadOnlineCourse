@@ -8,7 +8,7 @@ const LectureList = () => {
   const state = useStore()[0]
 
   return (
-    <ul className={classes.lectures_list}>
+    <div className={classes.lectures_list}>
       {state.lectures && state.lectures.map(lect => (
         <LectureItem
         key={lect.id}
@@ -22,7 +22,7 @@ const LectureList = () => {
         isFav={lect.isFavorite}
         />
       ))}
-    </ul>
+    </div>
   )
 }
 

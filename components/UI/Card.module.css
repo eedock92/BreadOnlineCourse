@@ -7,6 +7,7 @@
 .lecture_card {
   margin: '1rem'; 
   width : '16rem';
+  height: '30rem';
   justify-content: center;
   text-align: center; 
 }

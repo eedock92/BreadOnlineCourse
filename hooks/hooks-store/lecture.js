@@ -1,3 +1,21 @@
+import img1 from '../../public/img/마드레드.jpg'
+import img2 from '../../public/img/마테라컵케잌.jpg'
+import img3 from '../../public/img/버터롤.jpg'
+import img4 from '../../public/img/버터톱식빵.jpg'
+import img5 from '../../public/img/베이글.jpg'
+import img6 from '../../public/img/브라우니.jpg'
+import img7 from '../../public/img/사과파이.jpg'
+import 소시지빵 from '../../public/img/소시지빵.jpg'
+import img9 from '../../public/img/쇼트브레드.jpg'
+import img10 from '../../public/img/스위트롤.jpg'
+import img11 from '../../public/img/식빵.jpg'
+import img12 from '../../public/img/타르트.jpg'
+import img13 from '../../public/img/통밀빵.jpg'
+import img14 from '../../public/img/파운드 케익.jpg'
+
+
+
+
 export const cources = [
     {
         id: 'l1',
@@ -23,7 +41,7 @@ export const cources = [
         id: 'l3',
         title: '소시지빵',
         description: '소시지빵 강의 입니다.',
-        image: '',
+        image: {소시지빵},
         price: 1200,
         category: [],
         method: [],

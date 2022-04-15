@@ -13,8 +13,42 @@
   
 
   .lecture_card {
-    margin: '1rem'; 
-    width : '16rem';
+    position: relative;
+    border-radius: 15px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+   
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    width : 16rem;
+    height: 20rem;
+    margin: 2rem 1rem;
     justify-content: center;
     text-align: center; 
+  }
+  .lecture_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.26);
+   
+  }
+
+
+  
+
+  .lecture_card .headImg{
+
+    
+    position: absolute;
+    overflow: hidden;
+    
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    
+  }
+
+
+
+  .lecture_card .description{
+    margin-top: 10rem;
   }

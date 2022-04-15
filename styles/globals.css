@@ -17,12 +17,13 @@ a {
 }
 
 :root {
-  --color-bg: #3f3f3f;
-  --color-bg-varient: #385e45;
-  --color-primary: #ff7d66;
-  --color-primary-varient: #1c3625;
+  --color-bg: #feecdd;
+  --color-bg-varient: #3f3f3f;
+  --color-primary: rgb(168, 136, 116);
+  --color-primary-varient: #ff8c00;
   --color-white: #fff;
-  --color-light: wheat;
+  --color-black: #000;
+  --color-light: rgb(245, 237, 222);
 
   --transition: all 400ms ease;
 

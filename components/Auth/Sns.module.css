@@ -1,0 +1,23 @@
+.snslogin{
+    margin-top: 2rem;
+    border-top: 1px solid var(--color-black);
+  }
+  
+  .snslogin h5 {
+    text-align: center;
+    margin-top: 1rem;
+  
+  }
+
+  .kakao_Btn{
+    width: 16rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    background: yellow;
+
+    font-weight: 700;
+    color: rgb(45, 5, 5);
+    border-style: none;
+    cursor: pointer;
+}

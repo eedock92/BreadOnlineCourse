@@ -1,16 +1,24 @@
-import React from 'react'
+import React,{ useContext } from 'react'
 import classes from './MainNavigation.module.css';
 import Link from 'next/link'
-import Button from '../UI/Button';
-import { useStore } from '../../hooks/hooks-store/custom-store';
+import AuthContext from '../../store/auth-context';
+import Button from '../UI/Button/CommonButton';
+
+
+
+
+
 
 
 const MainNavigation = props => {
-  const dispatch = useStore(false)[1];
 
-  const toggleFavHandler= () => {
-    console.log('login')
-  } 
+  const authCtx = useContext(AuthContext)
+
+  const isLoggedIn = authCtx.isLoggedIn
+
+  const logoutHandler = () => {
+    authCtx.loggout()
+  }
 
   return (
     <header className={classes.header}>
@@ -26,9 +34,18 @@ const MainNavigation = props => {
         <li>
           <Link href='/mycourses'>나의 학습</Link>
         </li>
-        <li>
-          <Button buttonClick={toggleFavHandler}>로그인</Button>
+        {isLoggedIn && isLoggedIn ? (
+          <Button className={classes.Btn_Logout} buttonClick={logoutHandler}>로그아웃</Button>
+       
+        ) : (
+
+          <li>
+          <Link href='/AuthPage'>로그인</Link>
         </li>
+        )}
+        
+
+        
 
       </ul>
     </nav>
