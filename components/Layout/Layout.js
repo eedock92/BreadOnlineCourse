@@ -8,17 +8,18 @@ import { AuthContextProvicer } from '../../store/auth-context';
 
 const Layout = props => {
   return (
-    <div>
+   
         <AuthContextProvicer>
       
         <Script src="https://developers.kakao.com/sdk/js/kakao.min.js"></Script>
-    
+        
+        
         <MainNavigation/>
         <main className={classes.main}>{props.children}</main>
  
         <Footer/>
         </AuthContextProvicer>
-    </div>
+    
   )
 }
 

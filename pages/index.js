@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Intro from '../components/Home/Intro'
 import SampleCourses from '../components/Home/SampleCourses'
 import Banner from '../components/Home/Banner'
+import Testimonial from '../components/Home/Testimonial'
 
 
 
@@ -19,13 +20,13 @@ export default function Home(props) {
       </Head>
 
 
-   <Banner/>
-   <Intro/>
+      <Banner/>
+      <Intro/>
    
-   <p>3.연력/later</p>
-   <p>4.testimonial/later</p>
-  <SampleCourses/>
-   <p>6.문의 연락</p>
+     
+      <Testimonial/>
+      <SampleCourses/>
+      
 
     </div>
 

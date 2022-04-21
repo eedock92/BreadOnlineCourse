@@ -1,13 +1,12 @@
 
 
-export  function handler(req, res) {
-    res.status(200).json({ name: 'John Doe' })
-  }
 
-export  function Authenticate(req, res) {
+export  function AuthenticateHandler(req, res) {
     if (req.method === 'POST') {
       // Process a POST request
+      const data = req.body;
 
+      const {} = data;
     } else {
       // Handle any other HTTP method
     }

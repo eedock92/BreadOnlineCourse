@@ -18,7 +18,7 @@ a {
 
 :root {
   --color-bg: #feecdd;
-  --color-bg-varient: #3f3f3f;
+  --color-bg-varient: rgb(104, 75, 58);
   --color-primary: rgb(168, 136, 116);
   --color-primary-varient: #ff8c00;
   --color-white: #fff;

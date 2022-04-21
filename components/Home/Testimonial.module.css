@@ -1,0 +1,33 @@
+.testi_sect {
+ 
+    height: 60vh;
+    padding: 1rem;
+    color: var(--color-white);
+    background-color:var(--color-bg-varient);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.testi_sect h2{
+    font-size: xx-large;
+    font-weight: bolder;
+  
+}
+
+
+.swiper {
+    background-color:var(--color-bg-varient);
+    color: var(--color-black);
+}
+
+.testi_card{
+  
+    height: 30vh;
+    padding: 1rem;
+    margin: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    background-color: var(--color-white);
+}

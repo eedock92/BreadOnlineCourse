@@ -1,6 +1,6 @@
 import React from 'react'
 
-import LectCard from '../UI/Card/LectCard'
+import LectCard from '../UI/Card/Card'
 import classes from './LectureItem.module.css'
 import { useStore } from '../../hooks/hooks-store/custom-store'
 import Button from '../UI/Button'
@@ -10,6 +10,8 @@ import Image from 'next/image'
 
 const LectureItem = props=> {
     console.log('rendering')
+   
+
     const dispatch = useStore(false)[1]
   
     const toggleFavHandler= () => {
@@ -21,7 +23,7 @@ const LectureItem = props=> {
       <LectCard className={classes.lecture_card} >
 
           <div className={classes.headImg}>
-          <Image src={img1} alt="" />
+          <Image src={props.image} alt="" />
           </div>
 
           <div className={classes.description}>

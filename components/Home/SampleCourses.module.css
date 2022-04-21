@@ -1,9 +1,9 @@
 .Sample_sect {
 
     height: 100vh;
-    background-color: var(--color-bg-varient);
+    
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: var(--color-white);
+    color: var(--color-black);
 }

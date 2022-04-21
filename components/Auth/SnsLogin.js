@@ -9,10 +9,10 @@ const SnsLogin = () => {
   const authCtx = useContext(AuthContext)
   const router = useRouter()
 
-  const kakaoHandler = e => {
-      
+  const kakaoHandler = event => {
     Kakao.init('874b759aabcad23dd86ecd882fabca6c')
     Kakao.Auth.login({
+      
       success: function () {
         Kakao.API.request({
           url: '/v2/user/me',
@@ -30,7 +30,7 @@ const SnsLogin = () => {
         console.log(error)
       },
     })
-   // window.location.href = "https://kauth.kakao.com/oauth/authorize?client_id=1c38b80cb14c01145faabdebd82da5f4&redirect_uri=http://localhost:3000/AuthPage/learn&response_type=code"
+   
   
       
   }

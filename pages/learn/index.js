@@ -7,10 +7,10 @@ import LectureList from '../../containers/Lecture/LectureList'
 function learnPages(props) {
   return (
     <Fragment>
-      <div style={{height: '100vh'}}>
+     
       <LectureCategory/>
       <LectureList/>
-      </div>
+    
   
     </Fragment>
   )

@@ -24,7 +24,7 @@ export const AuthContextProvicer = props => {
     const contextValue = {
         token: token,
         isLoggedIn: userIsLoggedIn,
-        userType : '나중에 DB에서 유저 타입을 가져온다',
+        userType : 'user',
         login: loginHandler,
         loggout : logoutHandler
     }

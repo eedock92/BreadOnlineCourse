@@ -25,6 +25,8 @@
     justify-content: center;
     text-align: center; 
   }
+
+  
   .lecture_card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.26);
@@ -34,11 +36,14 @@
 
   
 
-  .lecture_card .headImg{
+
+
+  .lecture_card .headImg img{
 
     
-    position: absolute;
+    position: relative;
     overflow: hidden;
+    cursor: pointer;
     
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
@@ -48,7 +53,18 @@
   }
 
 
+  .lecture_card .headImg img:hover::after{
+
+    
+    background-color: #ff2058;
+  
+    
+  }
+
+
+
+
 
   .lecture_card .description{
-    margin-top: 10rem;
+    margin-top: 1rem;
   }

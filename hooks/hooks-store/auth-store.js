@@ -44,7 +44,9 @@ const AuthConfigureStore = () => {
 
     },
     LogIn : () => {},    
-    LogOut : () => {}
+    LogOut : () => {
+        localStorage.removeItem('token')
+    }
     
     
     }

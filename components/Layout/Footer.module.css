@@ -7,6 +7,7 @@
     background-color:var(--color-primary);
     border-top-left-radius: 45%;
     border-top-right-radius: 45%;
+
   }
   .f_content {
     position: absolute;

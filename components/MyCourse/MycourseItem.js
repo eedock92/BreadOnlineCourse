@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../UI/Card'
+import Card from '../UI/StyleCard'
 import classes from './MycourseItem.module.css'
 
 const MycourseItem = props => {
