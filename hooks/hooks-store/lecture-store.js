@@ -12,6 +12,23 @@ const configureStore = () => {
                 isFavorite: newFavStatus
             }
             return {lectures : updatedLectures}
+        },
+        FINDCLASS : (curState, category) => {
+            
+           
+            let updatedLectures 
+          
+            updatedLectures = cources.filter( l => l.category[0] === category)
+        
+  
+      
+                
+           
+            return {lectures : updatedLectures}
+        },
+        SETALL: () => {
+           
+            return {lectures : cources}
         }
     }
 

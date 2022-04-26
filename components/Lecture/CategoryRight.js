@@ -5,7 +5,8 @@ const CategoryRight = () => {
   return (
     <div className={classes.left_category}>
 
-      <Card>CategoryRight</Card>
+      <Card>검색</Card>
+      <Card>패키지</Card>
     </div>
   )
 }

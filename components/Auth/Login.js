@@ -23,19 +23,24 @@ const Login = props => {
     setIsLogin((prevState) => !prevState)
   }
 
+
+
  async function submitHandler(event){
    event.preventDefault();
     const enteredEmail = emailInputRef.current.value;
     const enteredPassword = passwordInputRef.current.value;
 
+   
     setIsLoading(true)
  
     let url
     if(isLogin){
       console.log("회원가입")
+     
       url = `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyA68J-gSPAoT5iSEhkSOCj5Sq9lmNqVoEw`
     }else{
       console.log("로그인")
+      
       url = `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyA68J-gSPAoT5iSEhkSOCj5Sq9lmNqVoEw`
     }
 

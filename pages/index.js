@@ -4,6 +4,7 @@ import Intro from '../components/Home/Intro'
 import SampleCourses from '../components/Home/SampleCourses'
 import Banner from '../components/Home/Banner'
 import Testimonial from '../components/Home/Testimonial'
+import ImageBanner from '../components/Home/ImageBanner'
 
 
 
@@ -23,7 +24,7 @@ export default function Home(props) {
       <Banner/>
       <Intro/>
    
-     
+      <ImageBanner/>
       <Testimonial/>
       <SampleCourses/>
       

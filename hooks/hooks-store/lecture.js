@@ -33,7 +33,7 @@ export const cources = [
         description: '치즈 케이크 강의 입니다.',
         image: img11,
         price: 1500,
-        category: [],
+        category: ['제과'],
         method: ['크림법','별립법'],
         isFavorite: false
       },
@@ -43,7 +43,7 @@ export const cources = [
         description: '소시지빵 강의 입니다.',
         image: img8,
         price: 1200,
-        category: [],
+        category: ['제빵'],
         method: [],
         isFavorite: false
       },
@@ -53,7 +53,7 @@ export const cources = [
         description: '슈 강의 입니다.',
         image: img2,
         price: 2200,
-        category: [],
+        category: ['제과'],
         method: [],
         isFavorite: false
       },
@@ -63,7 +63,7 @@ export const cources = [
         description: '파운드 케이크 강의 입니다.',
         image: img11,
         price: 2200,
-        category: [],
+        category: ['제과'],
         method: [],
         isFavorite: false
       },
@@ -73,7 +73,7 @@ export const cources = [
         description: '통밀빵 강의 입니다.',
         image: img4,
         price: 2200,
-        category: [],
+        category: ['제빵'],
         method: [],
         isFavorite: false
       },
@@ -83,7 +83,7 @@ export const cources = [
         description: '버터롤 강의 입니다.',
         image: img11,
         price: 2200,
-        category: [],
+        category: ['제빵'],
         method: [],
         isFavorite: false
       },
@@ -93,7 +93,7 @@ export const cources = [
         description: '타르트 강의 입니다.',
         image: img2,
         price: 2200,
-        category: [],
+        category: ['제과'],
         method: [],
         isFavorite: false
       },
@@ -103,7 +103,7 @@ export const cources = [
         description: '타르트 강의 입니다.',
         image: img2,
         price: 2200,
-        category: [],
+        category: ['제과'],
         method: [],
         isFavorite: false
       },
@@ -113,7 +113,7 @@ export const cources = [
         description: '타르트 강의 입니다.',
         image: img2,
         price: 2200,
-        category: [],
+        category: ['제과'],
         method: [],
         isFavorite: false
       },

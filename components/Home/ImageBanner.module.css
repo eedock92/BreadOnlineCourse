@@ -1,0 +1,28 @@
+.carousel{
+    cursor:  grab;
+    overflow: hidden;
+    background: linear-gradient(180deg, var(--color-bg-varient), #301406);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.item {
+    min-width: 30rem;
+    padding: 20px;
+}
+
+.item img{
+   width: 100%;
+   height: 100%;
+   border-radius: 2rem; 
+   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.52);
+   pointer-events: none;
+}
+
+.inner_carousel{
+    display: flex;
+    
+}
+

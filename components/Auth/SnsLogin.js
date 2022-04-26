@@ -5,11 +5,18 @@ import AuthContext from '../../store/auth-context'
 import { useRouter } from 'next/router'
 
 
+
+
 const SnsLogin = () => {
   const authCtx = useContext(AuthContext)
   const router = useRouter()
 
-  const kakaoHandler = event => {
+ 
+
+
+  const KakaoAuthHandler = () => {
+
+    //카카오일 때
     Kakao.init('874b759aabcad23dd86ecd882fabca6c')
     Kakao.Auth.login({
       
@@ -31,14 +38,18 @@ const SnsLogin = () => {
       },
     })
    
-  
       
   }
+
+
+  
 
   return (
     <div className={classes.snslogin}>
         <h5>SNS 계정으로 로그인 하세요</h5>
-        <Button className={classes.kakao_Btn} buttonClick={kakaoHandler}>카카오톡 로그인</Button>
+        <Button className={classes.kakao_Btn} buttonClick={KakaoAuthHandler}>카카오톡 로그인</Button>
+
+
     </div>
   )
 }
