@@ -10,44 +10,48 @@ const CategoryLeft = props => {
   const state = useStore()[0]
   const dispatch = useStore(false)[1]
   const [btnCheck, setBtnCheck] = useState(false)
-   
 
 
 
-  const BreadHandler = () => {   
 
-    setBtnCheck(true)
-    dispatch('FINDCLASS',"제빵")
 
+  const BreadHandler = () => {  
+  
+      setBtnCheck(true)
+      dispatch('FINDCLASS',"제빵")
+     
   }
 
   const CookieHandler = () => {
     setBtnCheck(true)
     dispatch('FINDCLASS',"제과")
+   
     
   }
 
   const CancleClassify = () => {
     setBtnCheck(prev => !prev)
     dispatch('SETALL')
+ 
   }
  
   return (
     <div className={classes.left_category}>
 
-      <Card><h2> - 분 류 -</h2>
+      
+        <h2> - 분 류 -</h2>
         <br/>
-       <h3>종목</h3>
+       <h3>종 목</h3>
          
     
             <Button value="제과" buttonClick={CookieHandler}>
-                제과
+                제 과
             </Button>
      
             
          
             <Button value="제빵" buttonClick={BreadHandler}>
-              제빵
+              제 빵
             </Button>
      
           
@@ -57,7 +61,7 @@ const CategoryLeft = props => {
 
         <br/>
 
-        <h3>제빵법</h3>
+<h3>제빵법</h3>
 
 <form>
 
@@ -71,31 +75,51 @@ const CategoryLeft = props => {
   스펀지도우법
 </label>
 
-액체발효법(ADMI법),연속식 제빵법, 비상 반죽법, 재반죽법,  
+<label>
+ <input type="radio" value="option2" />
+ 비상 반죽법
+</label>
+
 <br/>
-노타입 반죽법,찰리우드법, 냉동 반죽법, 오버나이트 스폰지법
+
 
 </form>
 
+  
+
 <br/>
 
-        <h3>제과법</h3>
+<h3>제과법</h3>
 
-        <form>
+<form>
+
+<label>
+ <input type="radio" value="option1" />
+   크림형
+</label>
+
+<label>
+ <input type="radio" value="option2" />
+   다단계법
+</label>
+
+<label>
+ <input type="radio" value="option1" />
+   공립법
+</label>
+
+<label>
+ <input type="radio" value="option2" />
+   별립법
+</label>
+
+</form>
+
+
+
        
-       <label>
-         <input type="radio" value="option1" />
-           반죽형
-       </label>
-     
-       <label>
-         <input type="radio" value="option2" />
-           거품형
-       </label>
-  
-   </form>
         <br/>
-      </Card>
+     
     </div>
   )
 }

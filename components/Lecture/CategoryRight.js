@@ -1,12 +1,15 @@
 import React from 'react'
-import Card from '../UI/StyleCard'
+import Card from '../UI/Card/Card'
 import classes from './Category.module.css'
 const CategoryRight = () => {
   return (
-    <div className={classes.left_category}>
+    <div className={classes.right_category}>
 
-      <Card>검색</Card>
-      <Card>패키지</Card>
+      <Card className={classes.search_cont}>
+       
+      <input placeholder='검색어를 입력하세요'/>
+      </Card>
+    
     </div>
   )
 }

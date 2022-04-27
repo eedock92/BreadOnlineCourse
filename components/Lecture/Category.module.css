@@ -4,4 +4,24 @@
 
 .right_category{
     flex : 1;
+ 
 }
+
+.search_cont{
+   
+    position: relative;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.search_cont input {
+    font: inherit;
+    background-color: var(--color-light);
+    margin-top: 1rem;
+    border-radius: 16px;
+    border: 1px solid var(--color-white);
+    width: 50%;
+    text-align: left;
+    padding: 0.25rem;
+  }
