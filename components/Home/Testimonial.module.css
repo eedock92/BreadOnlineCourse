@@ -82,3 +82,18 @@
     max-height: 100%;
    
 }
+
+@media (max-width: 600px) {
+    .testi_card{
+        display: flex;
+      width: 100%;
+      flex-direction: column;
+    }
+    .img_container{
+  
+        display: none;
+
+    
+        
+    }
+  }
