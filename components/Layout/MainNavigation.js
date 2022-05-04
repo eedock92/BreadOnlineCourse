@@ -31,9 +31,9 @@ const MainNavigation = props => {
         <li>
           <Link href='/learn'>배우기</Link>
         </li>
-        <li>
+        {/* <li>
           <Link href='/mycourses'>나의 학습</Link>
-        </li>
+        </li> */}
         {isLoggedIn && isLoggedIn ? (
           <Button className={classes.Btn_Logout} buttonClick={logoutHandler}>로그아웃</Button>
        
