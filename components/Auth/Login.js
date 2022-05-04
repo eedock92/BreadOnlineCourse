@@ -2,7 +2,6 @@ import React, {Fragment, useState, useRef, useContext} from 'react'
 
 import classes from './Login.module.css'
 import Button from '../UI/Button/CommonButton'
-import Authenticate from '../../pages/api/auth'
 import AuthContext from '../../store/auth-context'
 import { useRouter } from 'next/router'
 
