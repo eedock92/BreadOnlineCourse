@@ -23,11 +23,11 @@ const LectureItem = props=> {
       <LectCard className={classes.lecture_card} >
 
           <div className={classes.headImg}>
-          <Image src={props.image} alt="" />
+          <Image src={props.image} alt="" placeholder='blur'/>
           </div>
 
           <div className={classes.description}>
-              <h2 className={props.isFav ? 'is-fav' : ''}>{props.title}</h2>
+              <h2 className={classes.ribbon}>{props.title}</h2>
               <p>{props.description}</p>
               <Button
                   style={!props.isFav ? 'button-outline' : ''}

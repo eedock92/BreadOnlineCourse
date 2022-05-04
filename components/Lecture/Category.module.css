@@ -1,5 +1,8 @@
 .left_category{
     flex : 1;
+
+ 
+ 
 }
 
 .right_category{
@@ -18,10 +21,33 @@
 .search_cont input {
     font: inherit;
     background-color: var(--color-light);
-    margin-top: 1rem;
+  
     border-radius: 16px;
     border: 1px solid var(--color-white);
     width: 50%;
     text-align: left;
     padding: 0.25rem;
   }
+
+
+  .left_cat_btn {
+    font: inherit;
+    background: var(--color-primary);
+    padding: 0.5rem 2rem;
+    color: white;
+    border: 1px solid var(--color-primary);
+    margin: 0.5rem 1.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .left_cat_btn:hover,
+  .left_cat_btn:active {
+    background: white;
+    color: var(--color-primary);
+  }
+  
+  .left_cat_btn:focus {
+    outline: none;
+  }
+  

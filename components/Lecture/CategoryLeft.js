@@ -39,28 +39,28 @@ const CategoryLeft = props => {
     <div className={classes.left_category}>
 
       
-        <h2> - 분 류 -</h2>
+  
         <br/>
-       <h3>종 목</h3>
+       <h3>종목을 선택하세요</h3>
          
     
-            <Button value="제과" buttonClick={CookieHandler}>
+            <Button className={classes.left_cat_btn} value="제과" buttonClick={CookieHandler}>
                 제 과
             </Button>
      
             
          
-            <Button value="제빵" buttonClick={BreadHandler}>
+            <Button className={classes.left_cat_btn} value="제빵" buttonClick={BreadHandler}>
               제 빵
             </Button>
      
           
-              {btnCheck && btnCheck ?   <Button buttonClick={CancleClassify}>X</Button>: ''}
+              {btnCheck && btnCheck ?   <Button className={classes.left_cat_btn} buttonClick={CancleClassify}>X</Button>: ''}
             
      
 
         <br/>
-
+{/* 
 <h3>제빵법</h3>
 
 <form>
@@ -113,7 +113,7 @@ const CategoryLeft = props => {
    별립법
 </label>
 
-</form>
+</form> */}
 
 
 

@@ -2,7 +2,8 @@
     margin: 3rem auto;
     width: 95%;
     max-width: 25rem;
-    height: 35rem;
+    height: auto;
+    padding: 1rem;
     border-radius: 12px;
     border-color: black;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);

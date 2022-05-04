@@ -1,9 +1,19 @@
 .Intro_sect {
 
     height: 100vh;
-
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: var(--color-black);
+}
+
+.Intro_left{
+
+    flex: 1;
+}
+
+.Intro_right{
+
+    flex: 1;
 }

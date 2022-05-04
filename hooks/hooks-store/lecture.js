@@ -1,20 +1,32 @@
-import img1 from '../../public/img/마드레드.jpg'
-import img2 from '../../public/img/마테라컵케잌.jpg'
-import img3 from '../../public/img/버터롤.jpg'
-import img4 from '../../public/img/버터톱식빵.jpg'
-import img5 from '../../public/img/베이글.jpg'
-import img6 from '../../public/img/브라우니.jpg'
-import img7 from '../../public/img/사과파이.jpg'
-import img8 from '../../public/img/소시지빵.jpg'
-import img9 from '../../public/img/쇼트브레드.jpg'
-import img10 from '../../public/img/스위트롤.jpg'
+import img22 from '../../public/img/다쿠아즈.jpg'
+import img14 from '../../public/img/마들렌.jpg'
+import img15 from '../../public/img/마테라컵케잌.jpg'
+import img2 from '../../public/img/치즈케잌.jpg'
+import img7 from '../../public/img/버터롤.jpg'
+import img12 from '../../public/img/버터톱식빵.jpg'
+import img21 from '../../public/img/베이글.jpg'
+import img5 from '../../public/img/파운드 케익.jpg'
+import img6 from '../../public/img/통밀빵.jpg'
+import img19 from '../../public/img/브라우니.jpg'
+import img18 from '../../public/img/사과파이.jpg'
+import img1 from '../../public/img/소시지빵.jpg'
+import img23 from '../../public/img/쇼트브레드.jpg'
+import img25 from '../../public/img/스위트롤.jpg'
+import img26 from '../../public/img/버터스폰지.jpg'
 import img11 from '../../public/img/식빵.jpg'
-import img12 from '../../public/img/타르트.jpg'
-import img13 from '../../public/img/크림빵.jpg'
-import img14 from '../../public/img/우유식빵.jpg'
+import img111 from '../../public/img/과일케잌.jpg'
+import img8 from '../../public/img/타르트.jpg'
+import img9 from '../../public/img/크림빵.jpg'
+import img10 from '../../public/img/우유식빵.jpg'
+import img33 from '../../public/img/밤식빵.jpg'
+import img34 from '../../public/img/호두파이.jpg'
+import img35 from '../../public/img/초코컵케잌.jpg'
+import img36 from '../../public/img/쉬폰케잌.jpg'
+import img37 from '../../public/img/소보로.jpg'
+import img13 from '../../public/img/튀김도넛.jpg'
 
-
-
+import img30 from '../../public/img/젤리롤케잌.jpg'
+import img38 from '../../public/img/비상단팥빵.jpg'
 
 export const cources = [
     {
@@ -25,6 +37,7 @@ export const cources = [
         price: 1000,
         category: ['제과'],
         method: ['공립법'],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -47,10 +60,11 @@ export const cources = [
         id: 'l2',
         title: '치즈 케이크',
         description: '치즈 케이크 강의 입니다.',
-        image: img11,
+        image: img2,
         price: 1500,
         category: ['제과'],
         method: ['크림법','별립법'],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -73,10 +87,11 @@ export const cources = [
         id: 'l3',
         title: '소시지빵',
         description: '소시지빵 강의 입니다.',
-        image: img8,
+        image: img1,
         price: 1200,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -103,6 +118,7 @@ export const cources = [
         price: 2200,
         category: ['제과'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -125,10 +141,11 @@ export const cources = [
         id: 'l5',
         title: '파운드 케이크',
         description: '파운드 케이크 강의 입니다.',
-        image: img11,
+        image: img5,
         price: 2200,
         category: ['제과'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -151,10 +168,11 @@ export const cources = [
         id: 'l6',
         title: '통밀빵',
         description: '통밀빵 강의 입니다.',
-        image: img4,
+        image: img6,
         price: 2200,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -177,10 +195,11 @@ export const cources = [
         id: 'l7',
         title: '버터롤',
         description: '버터롤 강의 입니다.',
-        image: img11,
+        image: img7,
         price: 2200,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -203,10 +222,11 @@ export const cources = [
         id: 'l8',
         title: '타르트',
         description: '타르트 강의 입니다.',
-        image: img2,
+        image: img8,
         price: 2200,
         category: ['제과'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -229,10 +249,11 @@ export const cources = [
         id: 'l9',
         title: '크림빵',
         description: '크림빵 강의 입니다.',
-        image: img14,
+        image: img9,
         price: 2200,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -255,10 +276,11 @@ export const cources = [
         id: 'l10',
         title: '우유식빵',
         description: '우유식빵 강의 입니다.',
-        image: img14,
+        image: img10,
         price: 2200,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -280,11 +302,12 @@ export const cources = [
       {
         id: 'l11',
         title: '과일 케이크',
-        description: '초코롤 케이크 강의 입니다.',
-        image: img11,
+        description: '과일 케이크 강의 입니다.',
+        image: img111,
         price: 1000,
         category: ['제과'],
         method: ['크림법','별립법'],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -307,10 +330,11 @@ export const cources = [
         id: 'l12',
         title: '버터톱 식빵',
         description: '버터톱 식빵 강의 입니다.',
-        image: img11,
+        image: img12,
         price: 1500,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -333,10 +357,11 @@ export const cources = [
         id: 'l13',
         title: '빵도우넛',
         description: '빵도우넛 강의 입니다.',
-        image: img8,
+        image: img13,
         price: 1200,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -359,10 +384,11 @@ export const cources = [
         id: 'l14',
         title: '마들렌',
         description: '마들렌 강의 입니다.',
-        image: img2,
+        image: img14,
         price: 2200,
         category: ['제과'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -385,10 +411,11 @@ export const cources = [
         id: 'l15',
         title: '마테라 컵케잌',
         description: '파운드 케이크 강의 입니다.',
-        image: img2,
+        image: img15,
         price: 2200,
         category: ['제과'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -411,10 +438,11 @@ export const cources = [
         id: 'l16',
         title: '그리시리',
         description: '그리시리 강의 입니다.',
-        image: img4,
+        image: img14,
         price: 2200,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -441,6 +469,7 @@ export const cources = [
         price: 2200,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -463,10 +492,11 @@ export const cources = [
         id: 'l18',
         title: '사과파이',
         description: '사과파이 강의 입니다.',
-        image: img2,
+        image: img18,
         price: 2200,
         category: ['제과'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -489,10 +519,11 @@ export const cources = [
         id: 'l19',
         title: '브라우니',
         description: '브라우니 강의 입니다.',
-        image: img14,
+        image: img19,
         price: 2200,
         category: ['제과'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -519,6 +550,7 @@ export const cources = [
         price: 2200,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -541,10 +573,11 @@ export const cources = [
         id: 'l21',
         title: '베이글',
         description: '베이글 강의 입니다.',
-        image: img11,
+        image: img21,
         price: 1000,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -567,10 +600,11 @@ export const cources = [
         id: 'l22',
         title: '다쿠아즈',
         description: '다쿠아즈 강의 입니다.',
-        image: img11,
+        image: img22,
         price: 1500,
         category: ['제과'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -593,10 +627,11 @@ export const cources = [
         id: 'l23',
         title: '쇼트브레드쿠키',
         description: '쇼트브레드쿠키 강의 입니다.',
-        image: img8,
+        image: img23,
         price: 1200,
         category: ['제과'],
         method: ['크림법','수작업'],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -619,10 +654,11 @@ export const cources = [
         id: 'l24',
         title: '옥수수 식빵',
         description: '옥수수 식빵 강의 입니다.',
-        image: img2,
+        image: img10,
         price: 2200,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -643,12 +679,13 @@ export const cources = [
       },
       {
         id: 'l25',
-        title: '스위틑롤',
-        description: '스위틑롤 강의 입니다.',
-        image: img11,
+        title: '스위트롤',
+        description: '스위트롤 강의 입니다.',
+        image: img25,
         price: 2200,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -669,12 +706,13 @@ export const cources = [
       },
       {
         id: 'l26',
-        title: '버터 스폰지 케이크(공립법)',
-        description: '버터 스폰지 케이크 강의 입니다.',
-        image: img4,
+        title: '버터스폰지케잌',
+        description: '***공립법 강의 입니다.***',
+        image: img26,
         price: 2200,
         category: ['제과'],
         method: ['공립법'],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -695,12 +733,13 @@ export const cources = [
       },
       {
         id: 'l27',
-        title: '버터 스폰지 케이크(별립법)',
-        description: '버터 스폰지 케이크 강의 입니다.',
-        image: img11,
+        title: '버터스폰지케잌',
+        description: '***별립법 강의 입니다.***',
+        image: img26,
         price: 2200,
         category: ['제과'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -721,12 +760,13 @@ export const cources = [
       },
       {
         id: 'l28',
-        title: '단과자빵(트위스트형)',
-        description: '단과자빵 강의 입니다.',
+        title: '단과자빵',
+        description: '단과자빵 트위스트형 강의 입니다.',
         image: img2,
         price: 2200,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -747,12 +787,13 @@ export const cources = [
       },
       {
         id: 'l29',
-        title: '식빵(비상스트레이트법)',
+        title: '비상식빵',
         description: '비상 식빵 강의 입니다.',
-        image: img14,
+        image: img11,
         price: 2200,
         category: ['제빵'],
         method: ['비상','스트레이트'],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -773,12 +814,13 @@ export const cources = [
       },
       {
         id: 'l30',
-        title: '젤리롤 케잌(공립법)',
-        description: '젤리롤 케잌(공립법) 강의 입니다.',
-        image: img14,
+        title: '젤리롤 케잌',
+        description: '젤리롤 케이크(공립법) 강의 입니다.',
+        image: img30,
         price: 2200,
-        category: ['제빵'],
+        category: ['제과'],
         method: ['공립법'],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -799,12 +841,13 @@ export const cources = [
       },
       {
         id: 'l31',
-        title: '소프트롤 케이크',
+        title: '소프트롤 케잌',
         description: '소프트롤 케이크 강의 입니다.',
-        image: img11,
+        image: img30,
         price: 1000,
         category: ['제과'],
         method: ['별립법'],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -831,6 +874,7 @@ export const cources = [
         price: 1500,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -853,10 +897,11 @@ export const cources = [
         id: 'l33',
         title: '밤식빵',
         description: '밤식빵 강의 입니다.',
-        image: img8,
+        image: img33,
         price: 1200,
         category: ['제빵'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -879,10 +924,11 @@ export const cources = [
         id: 'l34',
         title: '호두파이',
         description: '호두파이 강의 입니다.',
-        image: img2,
+        image: img34,
         price: 2200,
         category: ['제과'],
         method: [],
+        ingredient: {},
         howto : {
           step1 : '',
           step2 : '',
@@ -892,6 +938,114 @@ export const cources = [
           step6 : '',
           step7 : '',
           step8 : '',
+          step9 : '',
+          tip : '',
+          refer : ''
+        },
+        fulltime : '',
+        mytime : '',
+        isPurchase: false,
+        isFavorite: false
+      },
+      {
+        id: 'l35',
+        title: '초코케잌',
+        description: '초코케잌 강의 입니다.',
+        image: img35,
+        price: 2200,
+        category: ['제과'],
+        method: [],
+        ingredient: {},
+        howto : {
+          step1 : '버터를 부드럽게 풀어준 후 설탕, 소금을 넣고 크림화한다',
+          step2 : '1에 계란을 5회 정도 나누어 넣으면서 부드러운 크림상태로 만든다.',
+          step3 : '2에 물을 넣고 섞은 후 건조재료를 넣고 균일하게 섞는다. (건조재료 넣고 물을 넣도록 함)',
+          step4 : '3에 초코칩을 넣고 골고루 섞는다.(반죽온도 : 24도)',
+          step5 : '팬닝 : 컵케잌 틀높이의 70% 정도 짜준다 (22 ~ 24개)',
+          step6 : '굽기 : 상 180도 하 160도 (30 ~ 35분)',
+          step7 : '',
+          step8 : '',
+          step9 : '',
+          tip : '계란을 조심해서 넣어야함(크리밍성), 매우 뻑뻑함 글루텐 생기기 쉬움',
+          refer : ''
+        },
+        fulltime : '',
+        mytime : '',
+        isPurchase: false,
+        isFavorite: false
+      },
+      {
+        id: 'l36',
+        title: '쉬폰케잌',
+        description: '쉬폰케잌 강의 입니다.',
+        image: img36,
+        price: 2200,
+        category: ['제과'],
+        method: [],
+        ingredient: {},
+        howto : {
+          step1 : '노른자, 흰자 분리한다',
+          step2 : '노른자를 풀어준 후 설탕A, 소금을 넣고 거품이 일지 않게 섞는다.',
+          step3 : '2에 식용유를 넣고 잘 섞은 다음 체질한 건조재료를 넣고 가볍게 섞는다.',
+          step4 : '3에 물을 조금씩 넣으면서 매끄러운 상태로 만든다.',
+          step5 : '흰자에 설탕 B를 나누어 넣으면서 중간 피크(90%)의 머랭을 만들어 4에 나누어 섞는다.',
+          step6 : '비중 : 0.45 +- 0.05 반죽온도 : 23도',
+          step7 : '팬닝 : 시폰틀에 물을 뿌려 반죽을 틀에 70% 정도 채운다. 기포가 들어가지 않게 주의한다.',
+          step8 : '굽기 : 상 180도 하 180도 ( 25분정도)',
+          step9 : '오븐에서 꺼내어 뜨거운 상태로 뒤집어 5 ~ 10분 후에 빼낸다.',
+          tip : '',
+          refer : ''
+        },
+        fulltime : '',
+        mytime : '',
+        isPurchase: false,
+        isFavorite: false
+      },
+      {
+        id: 'l37',
+        title: '소보루',
+        description: '소보루 강의 입니다.',
+        image: img37,
+        price: 1200,
+        category: ['제빵'],
+        method: [],
+        ingredient: {},
+        howto : {
+          step1 : '유지제외 전재료 믹싱. 클린업 단계 유지 투입. 최종단계 반죽 완료. 반죽온도 : 27도',
+          step2 : '1차 발효 : 27도 75 ~ 80 % (80 ~ 90분) 소보루 제조',
+          step3 : '분할 : 46g, 둥글리기',
+          step4 : '중간발효 : 10 ~ 15분',
+          step5 : '성형 및 팬닝 : 반죽을 다시 둥글리기 하여 물칠을 하고 소보루를 30g 정도 묻힌다. (10개씩 팬닝)',
+          step6 : '2차 발효 : 35 ~ 38도 85% (30 ~ 35분) → 약간 어린 발효',
+          step7 : '굽기 : 상 200도 하 170도 (10 ~ 15분)',
+          step8 : '소보루 제조법1 :  마가린을 부드럽게 풀어준 후 설탕, 소금,물엿을 넣고 섞는다.',
+          step9 : '소보루 제조법2 :  1에 계란을 넣고 섞은 후 체질한 건조재료를 넣고 파실파실한 상태가 되도록 나무주걱으로 섞어준다.',
+          tip : '',
+          refer : ''
+        },
+        fulltime : '',
+        mytime : '',
+        isPurchase: false,
+        isFavorite: false
+      },
+      {
+        id: 'l38',
+        title: '비상 단팥빵',
+        description: '단팥빵 비상스트레이트 강의입니다..',
+        image: img38,
+        price: 1200,
+        category: ['제빵'],
+        method: [],
+        ingredient: {},
+        howto : {
+          step1 : '유지제외 전재료 믹싱. 클린업 단계 유지 투입. 최종단계 반죽 완료. 반죽온도 : 27도',
+          step2 : '1차 발효 : 27도 75 ~ 80 % (80 ~ 90분) 소보루 제조',
+          step3 : '분할 : 46g',
+          step4 : '둥글리기',
+          step5 : '중간발효 : 10 ~ 15분',
+          step6 : '성형 및 팬닝 : 반죽을 다시 둥글리기 하여 물칠을 하고 소보루를 30g 정도 묻힌다. (10개씩 팬닝)',
+          step7 : '2차 발효 : 35 ~ 38도 85% (30 ~ 35분) → 약간 어린 발효',
+          step8 : '굽기 : 상 200도 하 170도 (10 ~ 15분)',
           step9 : '',
           tip : '',
           refer : ''

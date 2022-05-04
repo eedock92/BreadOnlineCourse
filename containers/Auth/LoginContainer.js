@@ -8,7 +8,7 @@ const LoginContainer = props => {
   return (
     <div className={classes.auth}>
         <Login/>
-        <SnsLogin/>
+        {/* <SnsLogin/> */}
     </div>
   )
 }

@@ -5,7 +5,7 @@ const CourseDetailPage = () => {
   const router = useRouter();
   console.log(router.query.newsId)
   return (
-    <div>-important</div>
+    <div>important</div>
   )
 }
 

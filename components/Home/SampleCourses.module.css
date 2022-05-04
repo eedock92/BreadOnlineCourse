@@ -1,9 +1,22 @@
-.Sample_sect {
+.sample_sect {
 
     height: 100vh;
     
-    justify-content: center;
-    align-items: center;
     text-align: center;
     color: var(--color-black);
+}
+
+.sample_cont{
+    position: relative;
+    display:grid;
+    margin-top: 12rem;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+
+.sample_card {
+    width: 15rem;
+    
 }

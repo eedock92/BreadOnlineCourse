@@ -1,6 +1,6 @@
 .testi_sect {
- 
-    height: 60vh;
+    width: auto;
+    height: 70vh;
     padding: 1rem;
     color: var(--color-white);
     background-color:var(--color-bg-varient);
@@ -8,6 +8,7 @@
     align-items: center;
     text-align: center;
     color: var(--color-white);
+    
 }
 
 .testi_sect h2{
@@ -23,11 +24,61 @@
 }
 
 .testi_card{
-  
-    height: 30vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr 0.3fr;
+    height: 25rem;
     padding: 1rem;
     margin: 3rem;
     border-radius: 20px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     background-color: var(--color-white);
+ 
+    
+    
+}
+
+.testi_card_h2 {
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.testi_card_h4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.img_container{
+  
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-radius: 50%;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+
+    overflow: hidden;
+}
+
+.testi_card_p{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.testi_card img{
+    
+    
+    max-width: 100%;
+    max-height: 100%;
+   
 }

@@ -12,6 +12,22 @@ const configureStore = () => {
                 ...curState.lectures[lecIndex],
                 isFavorite: newFavStatus
             }
+            console.log(updatedLectures[lecIndex])
+            // const res = fetch('/api/auth', {
+            //     method: 'POST',
+            //     body: JSON.stringify()
+            // })
+            
+            return {lectures : updatedLectures}
+        },
+
+        FINDNAME : (curState, title) => {
+
+            const updatedLectures = cources.filter( l => l.title === title)
+
+        
+      
+           
             return {lectures : updatedLectures}
         },
 
