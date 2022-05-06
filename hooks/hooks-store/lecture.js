@@ -1,23 +1,29 @@
 import img22 from '../../public/img/다쿠아즈.jpg'
 import img14 from '../../public/img/마들렌.jpg'
 import img15 from '../../public/img/마테라컵케잌.jpg'
+import img16 from '../../public/img/그리시니.jpg'
+import img17 from '../../public/img/모카빵.jpg'
 import img2 from '../../public/img/치즈케잌.jpg'
 import img7 from '../../public/img/버터롤.jpg'
 import img12 from '../../public/img/버터톱식빵.jpg'
+import img20 from '../../public/img/호밀빵.jpg'
 import img21 from '../../public/img/베이글.jpg'
 import img5 from '../../public/img/파운드 케익.jpg'
 import img6 from '../../public/img/통밀빵.jpg'
 import img19 from '../../public/img/브라우니.jpg'
 import img18 from '../../public/img/사과파이.jpg'
-import img1 from '../../public/img/소시지빵.jpg'
+import img1 from '../../public/img/초코롤.jpg'
+import img3 from '../../public/img/소시지빵.jpg'
 import img23 from '../../public/img/쇼트브레드.jpg'
 import img25 from '../../public/img/스위트롤.jpg'
 import img26 from '../../public/img/버터스폰지.jpg'
+import img28 from '../../public/img/단과자빵.jpg'
 import img11 from '../../public/img/식빵.jpg'
 import img111 from '../../public/img/과일케잌.jpg'
 import img8 from '../../public/img/타르트.jpg'
 import img9 from '../../public/img/크림빵.jpg'
 import img10 from '../../public/img/우유식빵.jpg'
+import img32 from '../../public/img/풀먼식빵.jpg'
 import img33 from '../../public/img/밤식빵.jpg'
 import img34 from '../../public/img/호두파이.jpg'
 import img35 from '../../public/img/초코컵케잌.jpg'
@@ -33,7 +39,7 @@ export const cources = [
         id: 'l1',
         title: '초코롤 케이크',
         description: '초코롤 케이크 강의 입니다.',
-        image: img11,
+        image: img1,
         price: 1000,
         category: ['제과'],
         method: ['공립법'],
@@ -87,7 +93,7 @@ export const cources = [
         id: 'l3',
         title: '소시지빵',
         description: '소시지빵 강의 입니다.',
-        image: img1,
+        image: img3,
         price: 1200,
         category: ['제빵'],
         method: [],
@@ -436,9 +442,9 @@ export const cources = [
       },
       {
         id: 'l16',
-        title: '그리시리',
-        description: '그리시리 강의 입니다.',
-        image: img14,
+        title: '그리시니',
+        description: '그리시니 강의 입니다.',
+        image: img16,
         price: 2200,
         category: ['제빵'],
         method: [],
@@ -465,7 +471,7 @@ export const cources = [
         id: 'l17',
         title: '모카빵',
         description: '모카빵 강의 입니다.',
-        image: img11,
+        image: img17,
         price: 2200,
         category: ['제빵'],
         method: [],
@@ -546,7 +552,7 @@ export const cources = [
         id: 'l20',
         title: '호밀빵',
         description: '호밀빵 강의 입니다.',
-        image: img14,
+        image: img20,
         price: 2200,
         category: ['제빵'],
         method: [],
@@ -762,7 +768,7 @@ export const cources = [
         id: 'l28',
         title: '단과자빵',
         description: '단과자빵 트위스트형 강의 입니다.',
-        image: img2,
+        image: img28,
         price: 2200,
         category: ['제빵'],
         method: [],
@@ -870,7 +876,7 @@ export const cources = [
         id: 'l32',
         title: '풀먼 식빵',
         description: '풀먼 식빵 강의 입니다.',
-        image: img11,
+        image: img32,
         price: 1500,
         category: ['제빵'],
         method: [],
