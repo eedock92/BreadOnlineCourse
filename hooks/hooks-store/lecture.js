@@ -33,6 +33,7 @@ import img13 from '../../public/img/튀김도넛.jpg'
 
 import img30 from '../../public/img/젤리롤케잌.jpg'
 import img38 from '../../public/img/비상단팥빵.jpg'
+import img39 from '../../public/img/더치빵.jpg'
 
 export const cources = [
     {
@@ -1052,6 +1053,33 @@ export const cources = [
           step6 : '성형 및 팬닝 : 반죽을 다시 둥글리기 하여 물칠을 하고 소보루를 30g 정도 묻힌다. (10개씩 팬닝)',
           step7 : '2차 발효 : 35 ~ 38도 85% (30 ~ 35분) → 약간 어린 발효',
           step8 : '굽기 : 상 200도 하 170도 (10 ~ 15분)',
+          step9 : '',
+          tip : '',
+          refer : ''
+        },
+        fulltime : '',
+        mytime : '',
+        isPurchase: false,
+        isFavorite: false
+      },
+      {
+        id: 'l39',
+        title: '더치빵',
+        description: '더치빵 강의 입니다.',
+        image: img37,
+        price: 1200,
+        category: ['제빵'],
+        method: [],
+        ingredient: {},
+        howto : {
+          step1 : '유지제외 전재료 믹싱. 클린업 단계 유지 투입 최종단계 초기 반죽완료. 반죽온도 27도',
+          step2 : '1차발효 : 27도 75 ~ 80 % ( 90 ~ 120분 / 토핑물 제료)',
+          step3 : '분할 : 300g',
+          step4 : '둥글리기',
+          step5 : '중간발효 : 10 ~ 20분',
+          step6 : '성형 및 팬닝 : 반죽을 두깨가 균일하게 밀어펴서 3겹말기를 하여 긴타원형(28cm)으로 만들어 이음매는 잘 봉한다.',
+          step7 : '2차 발효 : 38도 80% 25 ~ 35분 발효를 조금 어리게 하여 표면을 조금 말린 후 토핑용 반죽을 빵 반죽위에 두껍지 않게 고르게 바른다.',
+          step8 : '굽기 : 상 190도 하 160도 30 ~ 40 분',
           step9 : '',
           tip : '',
           refer : ''
