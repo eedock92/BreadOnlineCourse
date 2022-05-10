@@ -51,3 +51,11 @@
     outline: none;
   }
   
+  @media (max-width: 423px) {
+    .search_cont input{
+      width: 100%;
+    
+  }
+  
+
+  }

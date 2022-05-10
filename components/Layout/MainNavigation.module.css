@@ -59,3 +59,19 @@
   font-size: 1.2rem;
   color: rgb(168, 136, 116);
 }
+
+
+@media (max-width: 423px) {
+  .logo {
+   
+    font-weight:bold;
+    font-size: 1rem;
+  }
+
+  .header a {
+
+    font-size: 1rem;
+
+  }
+}
+

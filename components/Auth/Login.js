@@ -15,6 +15,7 @@ const Login = props => {
   const passwordInputRef = useRef()
   const [isLogin, setIsLogin] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState('')
 
   const authCtx = useContext(AuthContext)
 
@@ -65,6 +66,18 @@ const Login = props => {
       Router.push('/')
     } else{
         console.log(data)
+        const errorMessage = data.error.message
+        switch(errorMessage){
+          case "EMAIL_NOT_FOUND" : errorMessage = '아이디 또는 비밀번호가 잘못 입력하였습니다.'; break;
+          case "INVALID_PASSWORD": errorMessage = '아이디 또는 비밀번호가 잘못 입력하였습니다.'; break;
+          case "EMAIL_EXISTS" : errorMessage = '이미 존재하는 이메일 입니다.'; break;
+          case "WEAK_PASSWORD : Password should be at least 6 characters": errorMessage = '비밀번호는 적어도 6글자 이상이 되어야 합니다.'; break;
+          default: errorMessage="서버 에러";
+          
+        }
+        
+
+        setError(errorMessage)
       }
       setIsLoading(false)
      // const expirationTime = new Date(new Date().getTime() + (+data.expiresIn * 36000))
@@ -126,6 +139,7 @@ const Login = props => {
         <div className={classes.actions}>
           <button>{isLogin ? '회원가입' : '로그인'}</button>
           {isLoading && <p>요청중...</p>}
+          {!isLoading && error ? <p>{error}</p> : ''}
           <Button
             className={classes.toggle}
             buttonClick={switchAuthModeHandler}
