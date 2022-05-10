@@ -1066,7 +1066,7 @@ export const cources = [
         id: 'l39',
         title: '더치빵',
         description: '더치빵 강의 입니다.',
-        image: img37,
+        image: img39,
         price: 1200,
         category: ['제빵'],
         method: [],
