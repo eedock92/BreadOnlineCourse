@@ -34,6 +34,7 @@ import img13 from '../../public/img/튀김도넛.jpg'
 import img30 from '../../public/img/젤리롤케잌.jpg'
 import img38 from '../../public/img/비상단팥빵.jpg'
 import img39 from '../../public/img/더치빵.jpg'
+import img40 from '../../public/img/버터쿠키.jpg'
 
 export const cources = [
     {
@@ -1080,6 +1081,33 @@ export const cources = [
           step6 : '성형 및 팬닝 : 반죽을 두깨가 균일하게 밀어펴서 3겹말기를 하여 긴타원형(28cm)으로 만들어 이음매는 잘 봉한다.',
           step7 : '2차 발효 : 38도 80% 25 ~ 35분 발효를 조금 어리게 하여 표면을 조금 말린 후 토핑용 반죽을 빵 반죽위에 두껍지 않게 고르게 바른다.',
           step8 : '굽기 : 상 190도 하 160도 30 ~ 40 분',
+          step9 : '',
+          tip : '',
+          refer : ''
+        },
+        fulltime : '',
+        mytime : '',
+        isPurchase: false,
+        isFavorite: false
+      },
+      {
+        id: 'l40',
+        title: '버터쿠키',
+        description: '버터쿠키 강의 입니다.',
+        image: img40,
+        price: 2200,
+        category: ['제과'],
+        method: [],
+        ingredient: {},
+        howto : {
+          step1 : '',
+          step2 : '',
+          step3 : '',
+          step4 : '',
+          step5 : '',
+          step6 : '',
+          step7 : '',
+          step8 : '',
           step9 : '',
           tip : '',
           refer : ''
