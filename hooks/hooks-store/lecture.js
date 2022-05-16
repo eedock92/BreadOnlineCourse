@@ -8,6 +8,7 @@ import img7 from '../../public/img/버터롤.jpg'
 import img12 from '../../public/img/버터톱식빵.jpg'
 import img20 from '../../public/img/호밀빵.jpg'
 import img21 from '../../public/img/베이글.jpg'
+import img4 from '../../public/img/슈.jpg'
 import img5 from '../../public/img/파운드 케익.jpg'
 import img6 from '../../public/img/통밀빵.jpg'
 import img19 from '../../public/img/브라우니.jpg'
@@ -122,7 +123,7 @@ export const cources = [
         id: 'l4',
         title: '슈',
         description: '슈 강의 입니다.',
-        image: img2,
+        image: img4,
         price: 2200,
         category: ['제과'],
         method: [],
